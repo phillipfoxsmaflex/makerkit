@@ -1,3 +1,5 @@
+[phases.setup]
+nixPkgs = ['nodejs']
 cmds = git clone https://github.com/makerkit/next-supabase-saas-kit-lite.git
 cmds = pnpm install
 cmds = pnpm run supabase:web:start
